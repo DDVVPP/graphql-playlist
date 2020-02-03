@@ -23,9 +23,9 @@ class BookDetails extends Component {
       return <div>No book selected</div>;
     }
   }
+
   render() {
     //console.log(this.props); //would have booksId prop if were connected to mongodb
-
     return <div id="book-details">{this.displayBookDetails}</div>;
   }
 }
